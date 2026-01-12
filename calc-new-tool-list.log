@@ -193,3 +193,126 @@ Anzahl neuer Einträge: 66
 PowerShell transcript end
 End time: 20250925170240
 **********************
+**********************
+PowerShell transcript start
+Start time: 20260112112702
+Username: LAPTOP-1FKSBQSV\N0
+RunAs User: LAPTOP-1FKSBQSV\N0
+Configuration Name: 
+Machine: LAPTOP-1FKSBQSV (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\N0\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\N0\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\N0\AppData\Roaming\Code\logs\20260112T105441\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\N0\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-10540-299570.json' -FeatureFlags @() 
+Process ID: 20504
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Gesamtanzahl aller Zeilen: 381
+Anzahl der Duplikate: 0
+
+✅ Keine doppelten Einträge gefunden.
+
+🆕 Neue Einträge:
+#Last time Checked: 2025-09-26
+
+Anzahl neuer Einträge: 1
+
+Die alte Datei wurde **nicht** verändert. 'list-of-tools-new.txt' bleibt erhalten.
+
+'Configs\flagship.conf' wurde nicht verändert.
+**********************
+PowerShell transcript end
+End time: 20260112112856
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260112112858
+Username: LAPTOP-1FKSBQSV\N0
+RunAs User: LAPTOP-1FKSBQSV\N0
+Configuration Name: 
+Machine: LAPTOP-1FKSBQSV (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\N0\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\N0\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\N0\AppData\Roaming\Code\logs\20260112T105441\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\N0\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-10540-299570.json' -FeatureFlags @() 
+Process ID: 20504
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Gesamtanzahl aller Zeilen: 381
+Anzahl der Duplikate: 0
+
+✅ Keine doppelten Einträge gefunden.
+
+🆕 Neue Einträge:
+#Last time Checked: 2025-09-26
+
+Anzahl neuer Einträge: 1
+
+Die alte Datei wurde **nicht** verändert. 'list-of-tools-new.txt' bleibt erhalten.
+
+'Configs\flagship.conf' wurde nicht verändert.
+**********************
+PowerShell transcript end
+End time: 20260112112905
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260112112912
+Username: LAPTOP-1FKSBQSV\N0
+RunAs User: LAPTOP-1FKSBQSV\N0
+Configuration Name: 
+Machine: LAPTOP-1FKSBQSV (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\N0\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\N0\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\N0\AppData\Roaming\Code\logs\20260112T105441\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\N0\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-10540-299570.json' -FeatureFlags @() 
+Process ID: 20504
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Gesamtanzahl aller Zeilen: 380
+Anzahl der Duplikate: 0
+
+✅ Keine doppelten Einträge gefunden.
+
+🆕 Neue Einträge:
+
+Anzahl neuer Einträge: 0
+
+'list-of-tools.txt' wurde aktualisiert und 'list-of-tools-new.txt' gelöscht.
+
+
+📄 'Configs\flagship.conf' wurde erfolgreich aktualisiert mit den neuen Einträgen.
+**********************
+PowerShell transcript end
+End time: 20260112112916
+**********************
