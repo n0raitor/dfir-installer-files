@@ -143,7 +143,6 @@ KaliLinux
 Kansa
 KANSA-PP
 KAPE
-KAPE-Big
 kapexplaso-pp
 KeePass
 Kernel Mode Driver Loader
