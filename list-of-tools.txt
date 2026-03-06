@@ -288,6 +288,7 @@ Redline
 Regcool
 RegExport
 Registry-Write-Block
+Registry-Write-Block-exe
 Registryexplorer
 RegRipper3.0
 Regshot
