@@ -26,6 +26,7 @@ BloodHound
 bring2lite
 BrowsingHistoryView
 BuildTools
+bulk_extractor-rec
 Bulk-extractor
 BurnInTest
 BurpSuite-Community
@@ -83,6 +84,7 @@ Event Log Explorer Old
 Event Log Explorer_Forensic
 Event Log Explorer_Standard
 Everything
+EVTXtract
 Exchange-edb-viewer
 exe2aut
 ExeInfoPE.exe
@@ -212,10 +214,12 @@ MemoryDumperx64
 MemoryDumperx86
 MemProcFS
 Merlin
+MetaDiver
 Metasploit Framework
 MFCMAPI
 MFTBrowser
 MicroBurst
+MicrosoftExtractorSuite
 Mimikatz
 MSGWalker
 msodbcsql
@@ -297,6 +301,7 @@ ScyllaHide
 SecureRM
 ShadowExplorer
 shellcode_launcher
+ShimCacheParser
 Sidr
 sigma
 SilkETW
