@@ -366,7 +366,7 @@ VMware Workstation
 Vnc-viewer
 Volatility-Workbench
 Vscmount
-VSS_Carver.pyinfected
+VSS_Carver
 VSTOR
 Vt-cli
 W10Privacy

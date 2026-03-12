@@ -144,7 +144,7 @@ JoakimSchichtTools
 MemoryBaseliner
 RegExport
 TotalRegistry
-VSS_Carver.pyinfected
+VSS_Carver
 WinPMem
 densityscout
 ffdec
