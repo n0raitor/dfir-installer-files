@@ -2,6 +2,7 @@
 Files, that will get Synced if you run a --sync on dfir-installer
 
 ## FYI Changed some tool names:
+```
 --- New ---
 bulk_extractor-rec
 Cain
@@ -39,3 +40,4 @@ VMware Workstation
 VSS_Carver.pyinfected
 EDD
 KAPE-Big
+```
