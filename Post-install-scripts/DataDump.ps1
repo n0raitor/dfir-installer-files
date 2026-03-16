@@ -1,14 +1,14 @@
 # PowerShell PostProcess script for DataDump of Category C:\DFIR\_Tools\Volatile
 
 # Check if the category path exists, if not, create it
-if (!(Test-Path -Path "C:\DFIR\_Tools\Volatile")) {
-    New-Item -Path "C:\DFIR\_Tools\Volatile" -ItemType Directory
+if (!(Test-Path -Path "C:\DFIR\_Tools\Acquisition Tools")) {
+    New-Item -Path "C:\DFIR\_Tools\Acquisition Tools" -ItemType Directory
 }
 
 # Check if the tool directory exists
 if (Test-Path -Path "C:\DFIR\DataDump") {
     # Create symlink if tool directory exists
-    New-Item -Path "C:\DFIR\_Tools\Volatile\DataDump" -ItemType SymbolicLink -Target "C:\DFIR\DataDump" -Force
+    New-Item -Path "C:\DFIR\_Tools\Acquisition Tools\DataDump" -ItemType SymbolicLink -Target "C:\DFIR\DataDump" -Force
 } else {
     Write-Host "Tool directory does not exist: C:\DFIR\DataDump"
 }

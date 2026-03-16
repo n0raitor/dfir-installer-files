@@ -1,14 +1,14 @@
 # PowerShell PostProcess script for Kernel Mode Driver Loader of Category C:\DFIR\_Tools\SRE
 
 # Check if the category path exists, if not, create it
-if (!(Test-Path -Path "C:\DFIR\_Tools\SRE")) {
-    New-Item -Path "C:\DFIR\_Tools\SRE" -ItemType Directory
+if (!(Test-Path -Path "C:\DFIR\_Tools\Malware Analysis")) {
+    New-Item -Path "C:\DFIR\_Tools\Malware Analysis" -ItemType Directory
 }
 
 # Check if the tool directory exists
 if (Test-Path -Path "C:\DFIR\Kernel Mode Driver Loader") {
     # Create symlink if tool directory exists
-    New-Item -Path "C:\DFIR\_Tools\SRE\Kernel Mode Driver Loader" -ItemType SymbolicLink -Target "C:\DFIR\Kernel Mode Driver Loader" -Force
+    New-Item -Path "C:\DFIR\_Tools\Malware Analysis\Kernel Mode Driver Loader" -ItemType SymbolicLink -Target "C:\DFIR\Kernel Mode Driver Loader" -Force
 } else {
     Write-Host "Tool directory does not exist: C:\DFIR\Kernel Mode Driver Loader"
 }

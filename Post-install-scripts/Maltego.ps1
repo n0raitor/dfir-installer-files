@@ -1,8 +1,8 @@
 # PowerShell PostProcess script for Maltego of Category C:\DFIR\_Tools\Inteligence
 
 # Check if the category path exists, if not, create it
-if (!(Test-Path -Path "C:\DFIR\_Tools\Inteligence")) {
-    New-Item -Path "C:\DFIR\_Tools\Inteligence" -ItemType Directory
+if (!(Test-Path -Path "C:\DFIR\_Tools\OSINT")) {
+    New-Item -Path "C:\DFIR\_Tools\OSINT" -ItemType Directory
 }
 
 # Check if the tool directory exists
@@ -21,7 +21,7 @@ if ($sourceLnk) {
 }
 
 if ($sourceLnk) {
-    $destinationLnk = "C:\DFIR\_Tools\Inteligence\Maltego.exe"
+    $destinationLnk = "C:\DFIR\_Tools\OSINT\Maltego.exe"
 
     if (Test-Path -Path $sourceLnk) {
         # Copy the  file if it exists
@@ -31,7 +31,7 @@ if ($sourceLnk) {
     }
 } else {
     Write-Host "Maltego executable not found, using Directory: $maltegoRoot to create the symlink manually."
-    New-Item -Path "C:\DFIR\_Tools\Inteligence\Maltego" -ItemType SymbolicLink -Target "C:\Program Files (x86)\Paterva\Maltego" -Force
+    New-Item -Path "C:\DFIR\_Tools\OSINT\Maltego" -ItemType SymbolicLink -Target "C:\Program Files (x86)\Paterva\Maltego" -Force
 
 }
 

@@ -1,14 +1,14 @@
 # PowerShell PostProcess script for kapexplaso-pp of Category C:\DFIR\_Tools\Custom
 
 # Check if the category path exists, if not, create it
-if (!(Test-Path -Path "C:\DFIR\_Tools\Custom")) {
-    New-Item -Path "C:\DFIR\_Tools\Custom" -ItemType Directory
+if (!(Test-Path -Path "C:\DFIR\_Tools\Post-Processing")) {
+    New-Item -Path "C:\DFIR\_Tools\Post-Processing" -ItemType Directory
 }
 
 # Check if the tool directory exists
 if (Test-Path -Path "C:\DFIR\kapexplaso-pp") {
     # Create symlink if tool directory exists
-    New-Item -Path "C:\DFIR\_Tools\Custom\kapexplaso-pp" -ItemType SymbolicLink -Target "C:\DFIR\kapexplaso-pp" -Force
+    New-Item -Path "C:\DFIR\_Tools\Post-Processing\kapexplaso-pp" -ItemType SymbolicLink -Target "C:\DFIR\kapexplaso-pp" -Force
 } else {
     Write-Host "Tool directory does not exist: C:\DFIR\kapexplaso-pp"
 }

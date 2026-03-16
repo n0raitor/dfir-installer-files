@@ -1,14 +1,14 @@
 # PowerShell PostProcess script for Google-Analytic-Cookie-Cruncher of Category C:\DFIR\_Tools\Other
 
 # Check if the category path exists, if not, create it
-if (!(Test-Path -Path "C:\DFIR\_Tools\Other")) {
-    New-Item -Path "C:\DFIR\_Tools\Other" -ItemType Directory
+if (!(Test-Path -Path "C:\DFIR\_Tools\Browser Tools")) {
+    New-Item -Path "C:\DFIR\_Tools\Browser Tools" -ItemType Directory
 }
 
 # Check if the tool directory exists
 if (Test-Path -Path "C:\DFIR\Google-Analytic-Cookie-Cruncher") {
     # Create symlink if tool directory exists
-    New-Item -Path "C:\DFIR\_Tools\Other\Google-Analytic-Cookie-Cruncher" -ItemType SymbolicLink -Target "C:\DFIR\Google-Analytic-Cookie-Cruncher" -Force
+    New-Item -Path "C:\DFIR\_Tools\Browser Tools\Google-Analytic-Cookie-Cruncher" -ItemType SymbolicLink -Target "C:\DFIR\Google-Analytic-Cookie-Cruncher" -Force
 } else {
     Write-Host "Tool directory does not exist: C:\DFIR\Google-Analytic-Cookie-Cruncher"
 }

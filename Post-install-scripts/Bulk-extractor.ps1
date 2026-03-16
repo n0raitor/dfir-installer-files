@@ -1,13 +1,13 @@
 # PowerShell PostProcess script for Bulk-extractor of Category C:\DFIR\_Tools\Artifact Tools
 
 # Check if the category path exists, if not, create it
-if (!(Test-Path -Path "C:\DFIR\_Tools\Artifact Tools")) {
-    New-Item -Path "C:\DFIR\_Tools\Artifact Tools" -ItemType Directory
+if (!(Test-Path -Path "C:\DFIR\_Tools\Volatile")) {
+    New-Item -Path "C:\DFIR\_Tools\Volatile" -ItemType Directory
 }
 
 # Check if the tool directory exists
 $sourceLnk = "C:\Program Files (x86)\Bulk Extractor 1.5.5\64-bit\BEViewerLauncher.exe"
-$destinationLnk = "C:\DFIR\_Tools\Artifact Tools\Bulk Extractor GUI.exe"
+$destinationLnk = "C:\DFIR\_Tools\Volatile\Bulk Extractor GUI.exe"
 
 if (Test-Path -Path $sourceLnk) {
     # Copy the  file if it exists

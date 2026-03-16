@@ -1,14 +1,14 @@
 # PowerShell PostProcess script for iTopEasyDesktop of Category C:\DFIR\_Tools\Recommended
 
 # Check if the category path exists, if not, create it
-if (!(Test-Path -Path "C:\DFIR\_Tools\Recommended")) {
-    New-Item -Path "C:\DFIR\_Tools\Recommended" -ItemType Directory
+if (!(Test-Path -Path "C:\DFIR\_Tools\Other")) {
+    New-Item -Path "C:\DFIR\_Tools\Other" -ItemType Directory
 }
 
 # Check if the tool directory exists
 if (Test-Path -Path "C:\DFIR\iTopEasyDesktop") {
     # Create symlink if tool directory exists
-    New-Item -Path "C:\DFIR\_Tools\Recommended\iTopEasyDesktop" -ItemType SymbolicLink -Target "C:\DFIR\iTopEasyDesktop" -Force
+    New-Item -Path "C:\DFIR\_Tools\Other\iTopEasyDesktop" -ItemType SymbolicLink -Target "C:\DFIR\iTopEasyDesktop" -Force
 } else {
     Write-Host "Tool directory does not exist: C:\DFIR\iTopEasyDesktop"
 }

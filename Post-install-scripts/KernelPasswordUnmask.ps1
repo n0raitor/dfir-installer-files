@@ -1,21 +1,21 @@
-# PowerShell PostProcess script for KernelPasswordUnmask of Category C:\DFIR\_Tools\Artifact Tools
+# PowerShell PostProcess script for KernelPasswordUnmask of Category C:\DFIR\_Tools\Other
 
 # Check if the category path exists, if not, create it
-if (!(Test-Path -Path "C:\DFIR\_Tools\Artifact Tools")) {
-    New-Item -Path "C:\DFIR\_Tools\Artifact Tools" -ItemType Directory
+if (!(Test-Path -Path "C:\DFIR\_Tools\Other")) {
+    New-Item -Path "C:\DFIR\_Tools\Other" -ItemType Directory
 }
 
 # Check if the tool directory exists
 if (Test-Path -Path "C:\DFIR\KernelPasswordUnmask") {
     # Create symlink if tool directory exists
-    New-Item -Path "C:\DFIR\_Tools\Artifact Tools\KernelPasswordUnmask" -ItemType SymbolicLink -Target "C:\DFIR\KernelPasswordUnmask" -Force
+    New-Item -Path "C:\DFIR\_Tools\Other\KernelPasswordUnmask" -ItemType SymbolicLink -Target "C:\DFIR\KernelPasswordUnmask" -Force
 } else {
     Write-Host "Tool directory does not exist: C:\DFIR\KernelPasswordUnmask"
 }
 
 # Create symlink
-#New-Item -Path "C:\DFIR\_Tools\Artifact Tools\KernelPasswordUnmask.exe" -ItemType SymbolicLink -Target "C:\DFIR\KernelPasswordUnmask\KernelPasswordUnmask.exe" -Force
+#New-Item -Path "C:\DFIR\_Tools\Other\KernelPasswordUnmask.exe" -ItemType SymbolicLink -Target "C:\DFIR\KernelPasswordUnmask\KernelPasswordUnmask.exe" -Force
 
 # File moving command will be inserted here
-# Move-Item -Path C:\DFIR\ -Destination "C:\DFIR\Tools\Artifact Tools"
+# Move-Item -Path C:\DFIR\ -Destination "C:\DFIR\Tools\Other"
 

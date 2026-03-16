@@ -1,13 +1,13 @@
 # PowerShell PostProcess script for Cmder of Category C:\DFIR\_Tools\Terminal
 
 # Check if the category path exists, if not, create it
-if (!(Test-Path -Path "C:\DFIR\_Tools\Terminal")) {
-    New-Item -Path "C:\DFIR\_Tools\Terminal" -ItemType Directory
+if (!(Test-Path -Path "C:\DFIR\_Tools\System Utilities")) {
+    New-Item -Path "C:\DFIR\_Tools\System Utilities" -ItemType Directory
 }
 
 # Check if the tool directory exists
 $sourceLnk = "C:\tools\Cmder\Cmder.exe"
-$destinationLnk = "C:\DFIR\_Tools\Terminal\Cmder.exe"
+$destinationLnk = "C:\DFIR\_Tools\System Utilities\Cmder.exe"
 
 if (Test-Path -Path $sourceLnk) {
     # Copy the  file if it exists

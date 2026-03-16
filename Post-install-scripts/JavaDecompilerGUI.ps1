@@ -1,14 +1,14 @@
 # PowerShell PostProcess script for JavaDecompilerGUI of Category C:\DFIR\_Tools\SRE
 
 # Check if the category path exists, if not, create it
-if (!(Test-Path -Path "C:\DFIR\_Tools\SRE")) {
-    New-Item -Path "C:\DFIR\_Tools\SRE" -ItemType Directory
+if (!(Test-Path -Path "C:\DFIR\_Tools\Malware Analysis")) {
+    New-Item -Path "C:\DFIR\_Tools\Malware Analysis" -ItemType Directory
 }
 
 # Check if the tool directory exists
 if (Test-Path -Path "C:\DFIR\JavaDecompilerGUI") {
     # Create symlink if tool directory exists
-    New-Item -Path "C:\DFIR\_Tools\SRE\JavaDecompilerGUI" -ItemType SymbolicLink -Target "C:\DFIR\JavaDecompilerGUI" -Force
+    New-Item -Path "C:\DFIR\_Tools\Malware Analysis\JavaDecompilerGUI" -ItemType SymbolicLink -Target "C:\DFIR\JavaDecompilerGUI" -Force
 } else {
     Write-Host "Tool directory does not exist: C:\DFIR\JavaDecompilerGUI"
 }

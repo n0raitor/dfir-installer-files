@@ -1,13 +1,13 @@
 # PowerShell PostProcess script for uniextract of Category C:\DFIR\_Tools\SRE
 
 # Check if the category path exists, if not, create it
-if (!(Test-Path -Path "C:\DFIR\_Tools\SRE")) {
-    New-Item -Path "C:\DFIR\_Tools\SRE" -ItemType Directory
+if (!(Test-Path -Path "C:\DFIR\_Tools\Malware Analysis")) {
+    New-Item -Path "C:\DFIR\_Tools\Malware Analysis" -ItemType Directory
 }
 
 # Check if the tool directory exists
 $sourceLnk = "C:\Program Files (x86)\Universal Extractor\UniExtract.exe"
-$destinationLnk = "C:\DFIR\_Tools\SRE\UniExtract.exe"
+$destinationLnk = "C:\DFIR\_Tools\Malware Analysis\UniExtract.exe"
 
 if (Test-Path -Path $sourceLnk) {
     # Copy the  file if it exists

@@ -1,13 +1,13 @@
 # PowerShell PostProcess script for SystemInformer of Category C:\DFIR\_Tools\Other
 
 # Check if the category path exists, if not, create it
-if (!(Test-Path -Path "C:\DFIR\_Tools\Other")) {
-    New-Item -Path "C:\DFIR\_Tools\Other" -ItemType Directory
+if (!(Test-Path -Path "C:\DFIR\_Tools\Utilities")) {
+    New-Item -Path "C:\DFIR\_Tools\Utilities" -ItemType Directory
 }
 
 # Check if the tool directory exists
 $sourceLnk = "C:\Program Files\SystemInformer\SystemInformer.exe"
-$destinationLnk = "C:\DFIR\_Tools\Other\SystemInformer.exe"
+$destinationLnk = "C:\DFIR\_Tools\Utilities\SystemInformer.exe"
 
 if (Test-Path -Path $sourceLnk) {
     # Copy the  file if it exists

@@ -1,14 +1,14 @@
 # PowerShell PostProcess script for GIGABYTEControlCenter of Category C:\DFIR\_Tools\Driver
 
 # Check if the category path exists, if not, create it
-if (!(Test-Path -Path "C:\DFIR\_Tools\Driver")) {
-    New-Item -Path "C:\DFIR\_Tools\Driver" -ItemType Directory
+if (!(Test-Path -Path "C:\DFIR\_Tools\System Utilities")) {
+    New-Item -Path "C:\DFIR\_Tools\System Utilities" -ItemType Directory
 }
 
 # Check if the tool directory exists
 if (Test-Path -Path "C:\DFIR\GIGABYTEControlCenter") {
     # Create symlink if tool directory exists
-    New-Item -Path "C:\DFIR\_Tools\Driver\GIGABYTEControlCenter" -ItemType SymbolicLink -Target "C:\DFIR\GIGABYTEControlCenter" -Force
+    New-Item -Path "C:\DFIR\_Tools\System Utilities\GIGABYTEControlCenter" -ItemType SymbolicLink -Target "C:\DFIR\GIGABYTEControlCenter" -Force
 } else {
     Write-Host "Tool directory does not exist: C:\DFIR\GIGABYTEControlCenter"
 }

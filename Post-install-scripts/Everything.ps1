@@ -1,13 +1,13 @@
 # PowerShell PostProcess script for Everything of Category C:\DFIR\_Tools\Recommended
 
 # Check if the category path exists, if not, create it
-if (!(Test-Path -Path "C:\DFIR\_Tools\Recommended")) {
-    New-Item -Path "C:\DFIR\_Tools\Recommended" -ItemType Directory
+if (!(Test-Path -Path "C:\DFIR\_Tools\System Utilities")) {
+    New-Item -Path "C:\DFIR\_Tools\System Utilities" -ItemType Directory
 }
 
 # Check if the tool directory exists
 $sourceLnk = "C:\Program Files\Everything\Everything.exe"
-$destinationLnk = "C:\DFIR\_Tools\Recommended\Everything.exe"
+$destinationLnk = "C:\DFIR\_Tools\System Utilities\Everything.exe"
 
 if (Test-Path -Path $sourceLnk) {
     # Copy the  file if it exists

@@ -1,14 +1,14 @@
 # PowerShell PostProcess script for Sleuthkit of Category C:\DFIR\_Tools\Frameworks
 
 # Check if the category path exists, if not, create it
-if (!(Test-Path -Path "C:\DFIR\_Tools\Frameworks")) {
-    New-Item -Path "C:\DFIR\_Tools\Frameworks" -ItemType Directory
+if (!(Test-Path -Path "C:\DFIR\_Tools\Post-Processing")) {
+    New-Item -Path "C:\DFIR\_Tools\Post-Processing" -ItemType Directory
 }
 
 # Check if the tool directory exists
 if (Test-Path -Path "C:\DFIR\Sleuthkit") {
     # Create symlink if tool directory exists
-    New-Item -Path "C:\DFIR\_Tools\Frameworks\Sleuthkit" -ItemType SymbolicLink -Target "C:\DFIR\Sleuthkit" -Force
+    New-Item -Path "C:\DFIR\_Tools\Post-Processing\Sleuthkit" -ItemType SymbolicLink -Target "C:\DFIR\Sleuthkit" -Force
 } else {
     Write-Host "Tool directory does not exist: C:\DFIR\Sleuthkit"
 }

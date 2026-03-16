@@ -1,14 +1,14 @@
 # PowerShell PostProcess script for Logfileparser of Category C:\DFIR\_Tools\NTFS Tools
 
 # Check if the category path exists, if not, create it
-if (!(Test-Path -Path "C:\DFIR\_Tools\NTFS Tools")) {
-    New-Item -Path "C:\DFIR\_Tools\NTFS Tools" -ItemType Directory
+if (!(Test-Path -Path "C:\DFIR\_Tools\NTFS")) {
+    New-Item -Path "C:\DFIR\_Tools\NTFS" -ItemType Directory
 }
 
 # Check if the tool directory exists
 # Check if the tool directory exists
 $sourceLnk = "C:\ProgramData\chocolatey\bin\LogFileParser.exe"
-$destinationLnk = "C:\DFIR\_Tools\NTFS Tools\LogFileParser.exe"
+$destinationLnk = "C:\DFIR\_Tools\NTFS\LogFileParser.exe"
 
 if (Test-Path -Path $sourceLnk) {
     # Copy the  file if it exists
