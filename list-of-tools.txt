@@ -59,7 +59,6 @@ dejsonlz4
 densityscout
 DesktopRuntime6
 dex2jar
-dfir-installer
 DFIRPowerShellScripts
 DidierStevensSuite
 Die
