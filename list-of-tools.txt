@@ -75,7 +75,6 @@ DotPeek
 DriveFS-Sleuth
 DumpIt
 edb-debugger
-EDD
 EditPadLite
 EncryptedDiskDetector
 EncryptedDiskHunter
@@ -92,7 +91,8 @@ ExifTool
 ExifToolGUI
 Explorer Suite
 Explorersuite
-Exterro FTK Imager
+Exterro FTK Imager 4
+ExtractUsnJrnl
 ExtremeDumper
 Fakenet
 ffdec
@@ -112,6 +112,7 @@ GmailURLDecoder
 gMetaDataParse
 Google-Analytic-Cookie-Cruncher
 google-fs-recover
+Grassmarlin
 GSmartControl
 Hashcat
 hasher
@@ -130,6 +131,7 @@ iDef Map Setup
 IFPSTools
 iisGeoLocate
 ILSpy
+Indx2Csv
 INDXParse
 inetsim
 innoextract
@@ -139,7 +141,7 @@ iTopEasyDesktop
 java-deobfuscator
 JavaDecompilerGUI
 JDownloader
-JoakimSchichtTools
+JoakimSchichtToolsOutdated
 kali-windows-binaries
 KaliLinux
 Kansa
@@ -198,12 +200,15 @@ Lessmsi
 LibreOffice
 LM-Studio
 Logfileparser
+LogFileParser-Git
 LogiOptions
 Logitech G HUB
 LordPE
 MagnetRAMCapture
 MailSniper
 Mailviewer
+MakeContainer
+MakeImage
 Maltego
 Malware-Analysis-Scripts
 malware-jail
@@ -216,6 +221,7 @@ MemProcFS
 Merlin
 MetaDiver
 MFCMAPI
+Mft2Csv
 MFTBrowser
 MicroBurst
 MicrosoftExtractorSuite
@@ -279,6 +285,7 @@ qBittorrent
 qFlipper
 Quickhash-GUI
 Radare2
+RawCopy
 RealVNC Viewer
 ReCsvEdit
 Redline
@@ -294,12 +301,14 @@ retoolkit_installer
 retoolkit2_installer
 ROADtools
 Rufus
+RunAsTI
 RunDotNetDll
 Runtime6
 samdump
 SamSpade
 Scylla
 ScyllaHide
+Secure2Csv
 SecureRM
 ShadowExplorer
 shellcode_launcher
@@ -343,6 +352,7 @@ UI.Xaml2.8
 undark
 uniextract
 Upx
+UsnJrnl2Csv
 vb_decompiler_lite
 VC Redistributable x64
 VCLibsDesktop14
@@ -359,7 +369,7 @@ VisualStudioCode
 VisualStudioCommunityEdition
 VisualStudioEnterprise2022
 VLC
-VMware Workstation
+VMware Workstation17
 Vnc-viewer
 Volatility-Workbench
 Vscmount
